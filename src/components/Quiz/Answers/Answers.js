@@ -3,7 +3,7 @@ import Answer from "./Answer/Answer";
 function Answers() {
 
     return (
-        <div>
+        <div className={"row"}>
             <Answer/>
             <Answer/>
             <Answer/>

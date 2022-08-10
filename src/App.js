@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
         <Header/>
-        <Welcome/>
-        <Quiz/>
-        <Score/>
+        <div className={'container'}>
+            <Welcome/>
+            <Quiz/>
+            <Score/>
+        </div>
     </div>
   );
 }
